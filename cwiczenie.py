@@ -156,5 +156,7 @@
 # print(lista)
 # print(del_even(lista))
 
-even_list = [i for i in range(15) if i % 2 == 0]
-print(even_list)
+# Comprehension list
+
+# even_list = [i for i in range(15) if i % 2 == 0]
+# print(even_list)
