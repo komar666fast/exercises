@@ -160,3 +160,17 @@
 
 # even_list = [i for i in range(15) if i % 2 == 0]
 # print(even_list)
+
+lista1 = [1, 2, 3, 4]
+lista2 = ['pierwszy', 'drugi', 'trzeci', 'czwarty']
+
+lista_razem = list(zip(lista1, lista2))
+# print(sorted(lista_razem), type(lista_razem))
+
+for i, j in lista_razem:
+    print(i, j)
+
+# a, b = zip(*lista_razem)
+
+# print('a =', a, type(a))
+# print('b =', b, type(b))
